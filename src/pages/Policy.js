@@ -1,9 +1,13 @@
 import React from "react";
 import Layout from "./../components/Layout/Layout";
+import { Header } from "antd/es/layout/layout";
+import Footer from "../components/Layout/Footer";
 
 const Policy = () => {
   return (
-    <Layout>
+
+    <>
+      <Header/>
       <div className="row contactus ">
         <div className="col-md-6 ">
           <img
@@ -25,7 +29,8 @@ const Policy = () => {
           <p>If you have any questions or concerns about our privacy policy, please contact us at mobilepointcustomercare@gmail.com.</p>
         </div>
       </div>
-    </Layout>
+      <Footer/>
+    </>
   );
 };
 
