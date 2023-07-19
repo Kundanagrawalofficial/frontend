@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Policy from "./pages/Policy";
+import TermsAndConditions from './pages/TermsAndConditions'; 
 import Pagenotfound from "./pages/Pagenotfound";
 import Register from "./components/Auth/Register";
 import Login from "./components/Auth/Login";
@@ -54,6 +55,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/policy" element={<Policy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </>
